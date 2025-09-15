@@ -1,0 +1,42 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user {
+  align-self: flex-end;
+  background: #cce5ff;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+}
+
+.assistant {
+  align-self: flex-start;
+  background: #e2e3e5;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+}
+
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
